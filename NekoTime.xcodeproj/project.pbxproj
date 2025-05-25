@@ -11,6 +11,17 @@
 		83AF01DA2DE324E300D1AD59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF01D92DE324E300D1AD59 /* ContentView.swift */; };
 		83AF01DC2DE324E400D1AD59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AF01DB2DE324E400D1AD59 /* Assets.xcassets */; };
 		83AF01DF2DE324E400D1AD59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AF01DE2DE324E400D1AD59 /* Preview Assets.xcassets */; };
+		83AF01F72DE3274800D1AD59 /* CatEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF01F62DE3274800D1AD59 /* CatEntity.swift */; };
+		83AF01F92DE3278B00D1AD59 /* SessionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF01F82DE3278B00D1AD59 /* SessionEntity.swift */; };
+		83AF01FB2DE327CB00D1AD59 /* RewardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF01FA2DE327CB00D1AD59 /* RewardEntity.swift */; };
+		83AF01FD2DE3281300D1AD59 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF01FC2DE3281300D1AD59 /* TimerViewModel.swift */; };
+		83AF01FF2DE3283B00D1AD59 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF01FE2DE3283B00D1AD59 /* CatViewModel.swift */; };
+		83AF02012DE3285B00D1AD59 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF02002DE3285B00D1AD59 /* SessionViewModel.swift */; };
+		83AF02032DE3289F00D1AD59 /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF02022DE3289F00D1AD59 /* StartScreenView.swift */; };
+		83AF02052DE328C600D1AD59 /* FocusScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF02042DE328C600D1AD59 /* FocusScreenView.swift */; };
+		83AF02072DE328ED00D1AD59 /* RewardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF02062DE328ED00D1AD59 /* RewardScreenView.swift */; };
+		83AF020A2DE3293A00D1AD59 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF02092DE3293A00D1AD59 /* CatView.swift */; };
+		83AF020C2DE3294900D1AD59 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF020B2DE3294900D1AD59 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		83AF01D92DE324E300D1AD59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83AF01DB2DE324E400D1AD59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83AF01DE2DE324E400D1AD59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83AF01F62DE3274800D1AD59 /* CatEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatEntity.swift; sourceTree = "<group>"; };
+		83AF01F82DE3278B00D1AD59 /* SessionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionEntity.swift; sourceTree = "<group>"; };
+		83AF01FA2DE327CB00D1AD59 /* RewardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardEntity.swift; sourceTree = "<group>"; };
+		83AF01FC2DE3281300D1AD59 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		83AF01FE2DE3283B00D1AD59 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		83AF02002DE3285B00D1AD59 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		83AF02022DE3289F00D1AD59 /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
+		83AF02042DE328C600D1AD59 /* FocusScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusScreenView.swift; sourceTree = "<group>"; };
+		83AF02062DE328ED00D1AD59 /* RewardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardScreenView.swift; sourceTree = "<group>"; };
+		83AF02092DE3293A00D1AD59 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
+		83AF020B2DE3294900D1AD59 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,11 @@
 		83AF01D62DE324E300D1AD59 /* NekoTime */ = {
 			isa = PBXGroup;
 			children = (
+				83AF01F42DE325CE00D1AD59 /* Persistence */,
+				83AF01F32DE325C500D1AD59 /* Resources */,
+				83AF01F22DE325B700D1AD59 /* ViewModels */,
+				83AF01F12DE3259500D1AD59 /* Views */,
+				83AF01F02DE3258900D1AD59 /* Models */,
 				83AF01D72DE324E300D1AD59 /* NekoTimeApp.swift */,
 				83AF01D92DE324E300D1AD59 /* ContentView.swift */,
 				83AF01DB2DE324E400D1AD59 /* Assets.xcassets */,
@@ -65,6 +92,60 @@
 				83AF01DE2DE324E400D1AD59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83AF01F02DE3258900D1AD59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83AF01F62DE3274800D1AD59 /* CatEntity.swift */,
+				83AF01F82DE3278B00D1AD59 /* SessionEntity.swift */,
+				83AF01FA2DE327CB00D1AD59 /* RewardEntity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83AF01F12DE3259500D1AD59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83AF02082DE3291400D1AD59 /* Components */,
+				83AF02022DE3289F00D1AD59 /* StartScreenView.swift */,
+				83AF02042DE328C600D1AD59 /* FocusScreenView.swift */,
+				83AF02062DE328ED00D1AD59 /* RewardScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83AF01F22DE325B700D1AD59 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				83AF01FC2DE3281300D1AD59 /* TimerViewModel.swift */,
+				83AF01FE2DE3283B00D1AD59 /* CatViewModel.swift */,
+				83AF02002DE3285B00D1AD59 /* SessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		83AF01F32DE325C500D1AD59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83AF01F42DE325CE00D1AD59 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		83AF02082DE3291400D1AD59 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				83AF02092DE3293A00D1AD59 /* CatView.swift */,
+				83AF020B2DE3294900D1AD59 /* TimerView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AF02072DE328ED00D1AD59 /* RewardScreenView.swift in Sources */,
+				83AF01FB2DE327CB00D1AD59 /* RewardEntity.swift in Sources */,
+				83AF02012DE3285B00D1AD59 /* SessionViewModel.swift in Sources */,
+				83AF01FF2DE3283B00D1AD59 /* CatViewModel.swift in Sources */,
+				83AF02032DE3289F00D1AD59 /* StartScreenView.swift in Sources */,
+				83AF020C2DE3294900D1AD59 /* TimerView.swift in Sources */,
 				83AF01DA2DE324E300D1AD59 /* ContentView.swift in Sources */,
+				83AF02052DE328C600D1AD59 /* FocusScreenView.swift in Sources */,
+				83AF01F72DE3274800D1AD59 /* CatEntity.swift in Sources */,
 				83AF01D82DE324E300D1AD59 /* NekoTimeApp.swift in Sources */,
+				83AF01FD2DE3281300D1AD59 /* TimerViewModel.swift in Sources */,
+				83AF01F92DE3278B00D1AD59 /* SessionEntity.swift in Sources */,
+				83AF020A2DE3293A00D1AD59 /* CatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
